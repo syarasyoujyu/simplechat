@@ -11,7 +11,7 @@ def extract_region_from_arn(arn):
         return match.group(1)
     return "us-east-1"
 
-def lambda_handler(event, context):
+def lambda_handler(event):
     try:
         print("Received event:", json.dumps(event))
 
