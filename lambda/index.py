@@ -75,7 +75,7 @@ def lambda_handler(event, context):
             "inferenceConfig": {
                 "maxTokens": 512,
                 "stopSequences": [],
-                "temperature": 0.7,
+                "temperature": 0.0,
                 "topP": 0.9
             }
         }
